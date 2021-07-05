@@ -80,6 +80,10 @@ body{
 
 
 /* Recipies style */
+.recipies-section{
+    margin-top: 50px;
+
+}
 .top-header-recipies{
     text-align: center;
     padding: 0px 300px 0px 300px ;
@@ -92,8 +96,37 @@ body{
 .recipies-para{
     color: rgb(54, 53, 53);
     font-weight: 500;
-    
-    
+       
 }
 
+.recipies-area{
+    display: flex;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin: 50px;
+   
+}
+.recipies-item{
+    width: 30%;
+    margin: 0px 20px;
+    padding: 10px;
+    /* box-shadow:5px 10px 30px rgba(5, 4, 12, 0.205); */
+    box-shadow:5px 10px 30px rgba(81, 75, 119, 0.205);
+    border-radius: 25px;
+}
+.recipies-img{
+    text-align: center;
+}
+.recipies-img img{
+    width:94%;
+    padding: 10px;
+}
+.recipies-body{
+    padding: 0px 10px 20px 10px;
+}
+.recipies-para{
+    color: rgb(54, 53, 53);
+    font-weight: 500;
+
+}
 
