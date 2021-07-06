@@ -5,7 +5,42 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-/* banner style  */
+/* ------------navbar style  start--------------- */
+.navbar{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 12px 0px;
+}
+.navbar h3 a{
+    font-size: 28px;
+    text-decoration: none;
+    color: rgb(90, 75, 75);
+
+}
+.logo-color{
+    color: #fd482d;
+}
+.navbar-menu{
+    margin-left: auto;
+}
+.navbar-nav{
+    display: flex;
+}
+.navbar-item{
+    list-style: none;
+    margin: 0px 20px;
+}
+.navbar-link{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+/* ------------navbar style end---------------  */
+
+
+/* ------------banner style start---------------  */
 .banner-section{
     display: flex;
 }
@@ -41,10 +76,10 @@ body{
 .banner-img{
     width: 90%;
 }
+/* ------------banne style end--------------- */
 
 
-
-/* About style  */
+/* ------------About style start---------------  */
 
 .about-section{
     display: flex;
@@ -73,31 +108,29 @@ body{
     color: #5A4B4B;
 }
 .about-para{
-    color: rgb(34, 33, 33);
+    color: rgb(80, 78, 78);
     font-weight: 500;
     margin-bottom: 80px;
+    line-height: 30px;
+    font-size: 17px;
 }
+/* ------------about style end--------------- */
 
-
-/* Recipies style */
+/* ------------Recipies style start---------------*/
 .recipies-section{
     margin-top: 50px;
 
 }
-.top-header-recipies{
+.top-header-recipies, .top-header-service{
     text-align: center;
     padding: 0px 300px 0px 300px ;
 }
-.recipies-heading{
+.recipies-heading, .service-heading{
     font-size: 35px;
     font-weight: 600;
     color: #5A4B4B;
 }
-.recipies-para{
-    color: rgb(54, 53, 53);
-    font-weight: 500;
-       
-}
+
 
 .recipies-area{
     display: flex;
@@ -122,11 +155,97 @@ body{
     padding: 10px;
 }
 .recipies-body{
-    padding: 0px 10px 20px 10px;
+    padding: 0px 10px 10px 10px;
 }
-.recipies-para{
-    color: rgb(54, 53, 53);
+.recipies-para, .service-para{
+    color: rgb(80, 78, 78);
     font-weight: 500;
+    line-height: 30px;
+    font-size: 17px;   
+}
+/* ------------recipies style end --------------- */
+
+
+/* ------------count stye start--------------- */
+.count-section{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow:5px 10px 30px rgba(81, 75, 119, 0.205);
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+    padding: 35px 0px;
+}
+.count-item{
+    width: 33%;
+    text-align: center;
+}
+.count-title{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.count-para{
+    color: rgb(80, 78, 78);
+    font-size: 17px;
+}
+/* ------------count style end --------------- */
+
+
+/* ------------service style  start---------------*/
+.service-area{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.service-item{
+    width: 30%;
+    margin: 0px 20px;
+    padding: 25px 20px 40px 20px;
+    /* box-shadow:5px 10px 30px rgba(5, 4, 12, 0.205); */
+    box-shadow:5px 10px 30px rgba(81, 75, 119, 0.205);
+    border-radius: 15px;
+    text-align: center;
+}
+.service-title{
+    font-size: 24px;
+    font-weight: 600;
+}
+.service-para{
+    margin-bottom: 40px;
+}
+.read-btn, .login-btn{
+    text-decoration: none;
+    background: linear-gradient(90deg, #FB964B, #FD492D);
+    padding: 5px 20px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+}
+/* ------------service style  end---------------*/
+
+
+/* ------------Footer style start--------------- */
+.footer-section{
+    background-color: black;
+    color: white;
+    padding: 25px 100px;
+    margin-top: 100px;
+    text-align: center;
 
 }
+.gray-color{
+    color: gray;
+}
+.footer-section h1{
+    font-size: 32px;
+    font-weight: 600;
+}
+.footer-section p{
+    color: rgb(199, 193, 193);
+    font-size: 16px;
+}
+/* ------------Footer style end--------------- */
 
